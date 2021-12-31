@@ -110,7 +110,7 @@ just the same, the name of the object that we can create OR get.
 		}
 		return self::$_instance[$str];
 	}
-...
+```
 
 [(8:55)]( https://youtu.be/sWA1yVl8gDY?t=535 ) `index.php`.
 
@@ -137,7 +137,7 @@ $file->save(__DIR__);
 
 	http://dpcreate-multitone-sfactory_webformyself.loc/
 
-![screenshot of sample]( https://github.com/dpcreate-multitone-sfactory_webformyself/blob/main/public/images/firefox.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/dpcreate-multitone-sfactory_webformyself/blob/main/public/images/firefox.png )
 
 _Go to the root of our project and see two files._
 
@@ -253,7 +253,7 @@ $obj->save();
 
 [(30:35)]( https://youtu.be/sWA1yVl8gDY?t=1835 ) `Refresh Browser(F5).`- Actually, we implemented the `Static Factory` Pattern.
 
-![screenshot of sample]( https://github.com/dpcreate-multitone-sfactory_webformyself/blob/main/public/images/firefox1.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/dpcreate-multitone-sfactory_webformyself/blob/main/public/images/firefox1.png )
 
 ```
 save data
