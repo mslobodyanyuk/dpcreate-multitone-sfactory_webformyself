@@ -54,6 +54,7 @@ Why do I say group because there are several Patterns such as
 - Simple Factory
 - Abstract Factory
 - Factory Method
+
 Which, by and large, perform very similar actions.
 
 [(1:15)]( https://youtu.be/sWA1yVl8gDY?t=75 ) `Multitone`. 
@@ -102,14 +103,14 @@ The main condition is private constructors and the use of a method that will pro
 just the same, the name of the object that we can create OR get.
 
 ```php
-	public static function getInstance($str) : FileSave {
-				
-		//instanceof if( !self::$_instance instanceof self )
-        if(!isset(self::$_instance[$str])){
-			self::$_instance[$str] = new static($str); //(Late Static Binding, LSB) 
-		}
-		return self::$_instance[$str];
-	}
+public static function getInstance($str) : FileSave {
+            
+    //instanceof if( !self::$_instance instanceof self )
+    if(!isset(self::$_instance[$str])){
+        self::$_instance[$str] = new static($str); //(Late Static Binding, LSB) 
+    }
+    return self::$_instance[$str];
+}
 ```
 
 [(8:55)]( https://youtu.be/sWA1yVl8gDY?t=535 ) `index.php`.
